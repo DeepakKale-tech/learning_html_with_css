@@ -1,0 +1,25 @@
+.heading1, .heading2, .heading3{
+    color: red;
+    font-size: 50px;
+}
+.bgcolor{
+    background-color: orange;
+}
+
+#heading1{
+    color: aqua;
+    font-size: 60px;
+}
+#bgcolor{
+    background-color: crimson;
+}
+
+/* *{
+    color: purple;
+    font-size: 25px;
+} */
+
+h1,h3,p{
+    color: chartreuse;
+}
+
