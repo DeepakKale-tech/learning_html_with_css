@@ -12,6 +12,7 @@ body
     text-align : center;
     font-size: 50px;
     font-family:sans-serif;
+    margin: 15px;
 }
 .text
 {
@@ -19,4 +20,5 @@ body
     padding: 20px;
     border: 2px solid white;
     background-color: #00000033;
+    margin: 15px;
 }
