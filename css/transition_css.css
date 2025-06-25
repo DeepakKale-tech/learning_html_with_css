@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+.box{
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    color:aliceblue;
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    /* transition attributes : effect ,time-till-end(duration), traveling-speed-type, delay  */
+    transition: transform 2s ease 10ms;
+}
+
+.box1:hover{
+    transform: translate(125px,125px);
+}
+.box2:hover{
+    transform: translateX(150px);
+}
+.box3:hover{
+    transform: translateY(150px);
+}
+.box4:hover{
+    transform: rotate(360deg);
+    background-color: skyblue;
+}
+.box5:hover{
+    transform: skewX(20deg);
+}
+.box6:hover{
+    transform: skewY(20deg);
+}
+.box7:hover{
+    transform: scale(1.5);
+}
+.box8:hover{
+    transform: rotate(180deg) translateY(150px) scale(1.3);
+}

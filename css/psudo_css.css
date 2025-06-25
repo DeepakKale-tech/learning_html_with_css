@@ -1,0 +1,76 @@
+.hover_effect:hover{
+    color:aqua;
+    background-color: yellow;
+    font-size: 50px;
+    text-shadow: 4px 3px 8px red;
+
+}
+.hover_effect{
+    color:red;
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: red;
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+a:visited{
+    color: lightgreen;
+}
+/* input:focus{
+    background-color: yellow;
+} */
+
+ul{
+    width: 300px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+li:nth-child(odd){
+    background-color: pink;
+}
+
+li:nth-child(even){
+    background-color: lightskyblue;
+}
+
+li:first-child{
+    background-color: chocolate;
+    color: white;
+}
+
+li:last-child{
+    background-color: chocolate;
+    color: white;
+}
+
+input[type="text"]{
+    border: 8px solid red;
+    padding: 15px;
+}
+
+input[placeholder]{
+    background-color: black;
+    color: white;
+}

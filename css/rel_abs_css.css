@@ -9,10 +9,10 @@
 
 #tv{
     position: absolute;
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 150px;
     top:5px;
-    left: 150px;
+    left: 130px;
     background-color: black;
     color: red;
     text-align: center;
@@ -21,9 +21,9 @@
 #sofa{
     position: absolute;
     height: 90px;
-    width: 90px;
+    width: 200px;
     top:200px;
-    left: 150px;
+    left: 100px;
     background-color: chartreuse;
     color: chocolate;
     text-align: center;
@@ -36,6 +36,17 @@
     bottom:10px;
     right: 20px;
     background-color: orangered;
+    color: aqua;
+    text-align:center;
+}
+
+#door{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    bottom: 140px;
+    left: 0px;
+    background-color: black;
     color: aqua;
     text-align:center;
 }
