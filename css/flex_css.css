@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.item{
+    border: 2px double blue;
+    background-color: red;
+    color:white;
+    width:250px;
+    height: 150px;
+    margin: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

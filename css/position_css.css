@@ -1,0 +1,40 @@
+.box{
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    background-color: gray;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    color: white;
+}
+
+.box1{
+    position: static;
+}
+
+.box2{
+    /* in relative position change depend on earliar object or anything */
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+.box3{
+    /* absolute always depend on parent class to change positions of top,left,right,bottom.  */
+    position: absolute;  
+    top: 20px;
+    left: 200px;
+}
+
+.box4{
+    position: sticky;
+    top: 5px;
+    left:500px
+}
+
+.box5{
+    position: fixed;
+    right: 10px;
+    bottom: 300px;
+}
